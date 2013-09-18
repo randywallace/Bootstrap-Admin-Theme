@@ -115,54 +115,37 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 col-lg-3" id="sidebar">
-                    <ul class="nav  bs-docs-sidenav navbar-collapse collapse">
-                        <li class="active"> <a href="index.html"><i class="glyphicon glyphicon-chevron-right"></i> Dashboard</a>
-                        </li>
-                        <li> <a href="calendar.html"><i class="glyphicon glyphicon-chevron-right"></i> Calendar</a>
-                        </li>
-                        <li> <a href="stats.html"><i class="glyphicon glyphicon-chevron-right"></i> Statistics (Charts)</a>
-                        </li>
-                        <li> <a href="form.html"><i class="glyphicon glyphicon-chevron-right"></i> Forms</a>
-                        </li>
-                        <li> <a href="tables.html"><i class="glyphicon glyphicon-chevron-right"></i> Tables</a>
-                        </li>
-                        <li> <a href="buttons.html"><i class="glyphicon glyphicon-chevron-right"></i> Buttons &amp; Icons</a>
-                        </li>
-                        <li> <a href="editors.html"><i class="glyphicon glyphicon-chevron-right"></i> WYSIWYG Editors</a>
-                        </li>
-                        <li> <a href="interface.html"><i class="glyphicon glyphicon-chevron-right"></i> UI &amp; Interface</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-success pull-right">731</span> Orders</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-success pull-right">812</span> Invoices</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-info pull-right">27</span> Clients</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-info pull-right">1,234</span> Users</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-info pull-right">2,221</span> Messages</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-info pull-right">11</span> Reports</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-important pull-right">83</span> Errors</a>
-                        </li>
-                        <li> <a href="#"><span class="badge badge-warning pull-right">4,231</span> Logs</a>
-                        </li>
-                    </ul>
+                <div class="col-sm-3 col-lg-3" >
+                  <div class="btn-group-vertical bs-docs-sidenav" >
+                          <button type="button" class="btn btn-primary"> <a href="index.html"><i class="glyphicon glyphicon-chevron-right"></i> Dashboard</a></button>
+                          <button type="button" class="btn btn-default"> <a href="calendar.html"><i class="glyphicon glyphicon-chevron-right"></i> Calendar</a></button>
+                          <button type="button" class="btn btn-default"> <a href="stats.html"><i class="glyphicon glyphicon-chevron-right"></i> Statistics (Charts)</a></button>
+                          <button type="button" class="btn btn-default"> <a href="form.html"><i class="glyphicon glyphicon-chevron-right"></i> Forms</a></button>
+                          <button type="button" class="btn btn-default"> <a href="tables.html"><i class="glyphicon glyphicon-chevron-right"></i> Tables</a></button>
+                          <button type="button" class="btn btn-default"> <a href="buttons.html"><i class="glyphicon glyphicon-chevron-right"></i> Buttons &amp; Icons</a></button>
+                          <button type="button" class="btn btn-default"> <a href="editors.html"><i class="glyphicon glyphicon-chevron-right"></i> WYSIWYG Editors</a></button>
+                          <button type="button" class="btn btn-default"> <a href="interface.html"><i class="glyphicon glyphicon-chevron-right"></i> UI &amp; Interface</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-success pull-right">731</span> Orders</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-success pull-right">812</span> Invoices</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-info pull-right">27</span> Clients</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-info pull-right">1,234</span> Users</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-info pull-right">2,221</span> Messages</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-info pull-right">11</span> Reports</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-important pull-right">83</span> Errors</a></button>
+                          <button type="button" class="btn btn-default"> <a href="#"><span class="badge badge-warning pull-right">4,231</span> Logs</a></button>
+                  </div>
                 </div>
                 <!--/span-->
                 <div class="col-sm-9 col-lg-9" id="content">
                     <div class="row">
                         <div class="alert alert-success">
-                            <button type="button" class="close" data-dismiss="alert">×</button>
+                            <button type="button" class="close" data-dismiss="alert"><i class='glyphicon glyphicon-remove'></i></button>
                              <h4>Success</h4>
                         </div>
                     </div>
                     <div class="row">
-                        <!-- block -->
-                        <div class="block">
-                            <div class="block-content collapse in">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
                                 <div class="col-sm-3 col-lg-3">
                                     <div class="chart" data-percent="73">73%</div>
                                     <div class="chart-bottom-heading"><span class="label label-info">Visitors</span>
@@ -190,46 +173,42 @@
                     <div class="row">
                         <div class="col-sm-6 col-lg-6">
                             <!-- block -->
-                            <div class="block">
-                                <div class="block-content collapse in">
-                                    <table class="table table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Vincent</td>
-                                                <td>Gabriel</td>
-                                                <td>@gabrielva</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                            <div class="panel panel-default">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Vincent</td>
+                                            <td>Gabriel</td>
+                                            <td>@gabrielva</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <!-- /block -->
                         </div>
                         <div class="col-sm-6 col-lg-6">
                             <!-- block -->
-                            <div class="block">
-                                <div class="block-content collapse in">
+                            <div class="panel panel-default">
                                     <table class="table table-striped">
                                         <thead>
                                             <tr>
@@ -260,7 +239,6 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
                             </div>
                             <!-- /block -->
                         </div>
@@ -268,8 +246,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-lg-6">
                             <!-- block -->
-                            <div class="block">
-                                <div class="block-content collapse in">
+                            <div class="panel panel-default">
                                     <table class="table table-striped">
                                         <thead>
                                             <tr>
@@ -300,14 +277,12 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
                             </div>
                             <!-- /block -->
                         </div>
                         <div class="col-sm-6 col-lg-6">
                             <!-- block -->
-                            <div class="block">
-                                <div class="block-content collapse in">
+                            <div class="panel panel-default">
                                     <table class="table table-striped">
                                         <thead>
                                             <tr>
@@ -334,14 +309,13 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
                             </div>
                             <!-- /block -->
                         </div>
                     </div>
                     <div class="row">
                         <!-- block -->
-                        <div class="block">
+                        <div class="panel panel-default">
                             <div class="block-content collapse in">
                                 <div class="padd-bottom row">
                                     <div class="col-sm-3 col-lg-3"> <a href="#" class="thumbnail">
